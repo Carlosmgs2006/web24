@@ -9,7 +9,7 @@ body {
 
 * {
     box-sizing: border-box;
-    color: rgb(18, 0, 110);
+    color: rgb(0, 9, 110);
 }
 
 /* For desktop: */
@@ -187,7 +187,8 @@ a {
 }
 
 .bg-azul-o {
-    background-color: rgb(9, 65, 104);
+    background-color: rgb(67, 147, 205);
+    border-radius: 300px;
 }
 .bg-azul-c {
     background-color: rgb(16, 112, 145);
