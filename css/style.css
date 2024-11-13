@@ -156,11 +156,14 @@ nav li {
 }
 
 nav li a {
-    color: rgb(75, 135, 161);
+    color: rgb(1, 9, 12);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav li:hover {
     background-color:  rgb(25, 143, 189);
+    border-radius: 200px;
+    padding: 5px;
 }
 
 .text-right{
