@@ -237,7 +237,7 @@ h1 {
 .container, .row, nav li, footer, [class*="col-"] {
     transition: all 0.3s ease;
 
-
+}
 
 .etiqueta{
     color: rgb(245, 10, 10);
@@ -277,7 +277,38 @@ h1 {
 #listas .custom3 li li{
     list-style-image: url("../img/logo.png");
 }
+#listas .custom3 li li li{
+    list-style: decimal;
+}
+#listas .listadefcustom  {
+    width: 30%;
+    background-color: rgb(102, 139, 172);
+}
+#listas .listadefcustom dt {
+    display: inline;
+    background-color: rgb(9, 40, 75);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+}
+.inicioses{
+    float: left;
+    width: 50%;
+  
 
+}
+
+.registro {
+        float: right;
+        width: 50%;
+    }
+
+ .formhtml5 {
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgb(21, 192, 231);
+        border-radius: 5%;
+ }
 .striped tr:nth-child(odd){
     background-color: #791437;
   }
@@ -318,4 +349,5 @@ h1 {
     display: block;
     margin: auto;
 }
-}
+
+
